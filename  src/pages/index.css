@@ -1,3 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
+@import url(../blocks/page/page.css);
+@import url(../blocks/education/education.css);
+@import url(../blocks/learn/__title/learn__title.css);
+@import url(../blocks/learn/__text/learn__text.css);
+@import url(../blocks/learn/__magistr/learn__magistr.css);
+@import url(../blocks/learn/__magistr/learn__magistr-title.css);
+@import url(../blocks/learn/__magistr/learn__magistr-program.css);
+@import url(../blocks/learn/__magistr/learn__magistr-more.css);
+@import url(../blocks/learn/__magistr/learn__magistr-image.css);
+@import url(../blocks/learn/__magistr/learn__magistr-list.css);
+@import url(../blocks/learn/__choice/learn__choice-aspirant.css);
+@import url(../blocks/learn/__choice/learn__choice-magistr.css);
+@import url(../blocks/learn/__choice/learn__choice.css);
