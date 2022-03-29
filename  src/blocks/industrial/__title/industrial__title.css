@@ -1,0 +1,12 @@
+.industrial__title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000D26;
+    font-family: "OpenSans", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.36;
+    letter-spacing: 0.1px;
+}

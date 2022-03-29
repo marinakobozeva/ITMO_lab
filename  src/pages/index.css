@@ -8,8 +8,10 @@
 @import url(../blocks/industrial/__title/industrial__title.css);
 @import url(../blocks/industrial/__wrapper/industrial__wrapper.css);
 @import url(../blocks/industrial/__pictures/industrial__pictures.css);
+@import url(../blocks/industrial/__photo/industrial__photo.css);
+@import url(../blocks/industrial/__photo/_invisible/industrial__photo_invisible.css);
 @import url(../blocks/industrial/__image/industrial__image.css);
-@import url(../blocks/industrial/__image/_hidden/industrial__image_hidden.css);
+@import url(../blocks/industrial/__image/_visible/industrial__image_visible.css);
 @import url(../blocks/industrial/__text/industrial__text.css);
 @import url(../blocks/industrial/__paragraph/industrial__paragraph.css);
 @import url(../blocks/industrial/__list/industrial__list.css);
