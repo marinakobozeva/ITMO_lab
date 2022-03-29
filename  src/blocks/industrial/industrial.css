@@ -1,16 +1,16 @@
 .industrial {
-    padding: 40px 16px;
-    background-color: #E0F0FF;
-};
+  padding: 40px 16px;
+  background-color: #E0F0FF;
+}
 
 /* @media (min-width: 768px) {
-    .industrial {
-        padding: 60px 39px;
-    };
-};
+  .industrial {
+    padding: 60px 39px;
+  }
+}
 
 @media (min-width: 1440px) {
-    .industrial {
-        padding: 80px 165px 80px 129px;
-    }
+  .industrial {
+    padding: 80px 165px 80px 129px;
+  }
 } */
