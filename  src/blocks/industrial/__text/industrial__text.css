@@ -2,3 +2,10 @@
   margin: 0 auto;
   width: 288px;
 }
+
+@media (min-width: 768px) {
+ .industrial__text {
+   margin: 0;
+   width: 330px;
+ }
+}

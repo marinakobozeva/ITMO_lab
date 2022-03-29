@@ -1,5 +1,5 @@
 .industrial__paragraph {
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 20px;
   color: #000D26;
   font-family: "OpenSans", "Arial", sans-serif;
@@ -7,5 +7,21 @@
   font-size: 12px;
   line-height: 1.36;
   letter-spacing: 0.1px;
+}
 
+.industrial__paragraph:last-of-type {
+  opacity: 0.6;
+  font-weight: 300px;
+}
+
+@media (min-width: 768px) {
+  .industrial__paragraph {
+    max-width: 330px;
+    font-size: 14px;
+    line-height: 1.42;
+  }
+
+  .industrial__paragraph:last-of-type {
+    margin: 0;
+  }
 }

@@ -13,3 +13,9 @@
   background-color: transparent;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  .card__button {
+    width: 126.5px;
+  }
+}

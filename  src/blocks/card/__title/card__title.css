@@ -7,3 +7,9 @@
   line-height: 1.36;
   letter-spacing: 0.06px;
 }
+
+@media (min-width: 768px) {
+  .card__title {
+    font-size: 12px;
+  }
+}

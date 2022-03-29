@@ -7,3 +7,11 @@
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
+
+@media (min-width: 768px) {
+  .industrial__list {
+    flex-wrap: nowrap;
+    width: 690px;
+    gap: 30px;
+  }
+}
