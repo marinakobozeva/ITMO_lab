@@ -1,0 +1,9 @@
+.industrial__list {
+    margin: 0 auto;
+    padding: 0;
+    width: 288px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
