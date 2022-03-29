@@ -1,0 +1,5 @@
+.card_icon_project::before {
+  background-image: url(../../../images/CardIcon/project.svg);
+  background-size: 21px 20px;
+  background-position: center;
+}

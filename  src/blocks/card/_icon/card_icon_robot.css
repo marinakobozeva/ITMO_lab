@@ -1,0 +1,5 @@
+.card_icon_robot::before {
+  background-image: url(../../../images/CardIcon/robot.svg);
+  background-size: 21px 20px;
+  background-position: center;
+}

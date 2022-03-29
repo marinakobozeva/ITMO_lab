@@ -1,0 +1,5 @@
+.card_icon_brain::before {
+  background-image: url(../../../images/CardIcon/brain.svg);
+  background-size: 21px 20px;
+  background-position: center;
+}
