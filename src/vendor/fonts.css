@@ -1,3 +1,4 @@
+/*Шрифт Light & Light Italic*/
 @font-face {
   font-family: "OpenSans";
   font-weight: 300;
@@ -6,12 +7,64 @@
 
 @font-face {
   font-family: "OpenSans";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../vendor/fonts/OpenSans-LightItalic.ttf") format("ttf");
+}
+
+/*Шрифт Regular & Regular Italic*/
+@font-face {
+  font-family: "OpenSans";
   font-weight: 400;
   src: url("../vendor/fonts/OpenSans-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "OpenSans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../vendor/fonts/OpenSans-Italic.ttf") format("ttf");
+}
+
+/*Шрифт SemiBold & SemiBold Italic*/
+@font-face {
+  font-family: "OpenSans";
   font-weight: 600;
   src: url("../vendor/fonts/OpenSans-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../vendor/fonts/OpenSans-SemiBoldItalic.ttf") format("ttf");
+}
+
+/*Шрифт Bold & Bold Italic*/
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 700;
+  src: url("../vendor/fonts/OpenSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../vendor/fonts/OpenSans-BoldItalic.ttf") format("ttf");
+}
+
+/*Шрифт ExtraBold & ExtraBold Italic*/
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 800;
+  src: url("../vendor/fonts/OpenSans-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../vendor/fonts/OpenSans-ExtraBoldItalic.ttf") format("ttf");
 }
