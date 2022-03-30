@@ -1,0 +1,6 @@
+@media (min-width: 1440px) {
+  .card_image_robot {
+    background-image: url(../../../images/Lab/robot.png);
+    background-size: cover;
+  }
+}

@@ -1,0 +1,12 @@
+.card_icon_micro::before {
+  background-image: url(../../../images/CardIcon/micro.svg);
+  background-size: 21px 20px;
+  background-position: center;
+}
+
+@media (min-width: 1440px) {
+  .card_icon_micro::before {
+    background-size: 34px 34px;
+  }
+}
+

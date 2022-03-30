@@ -1,0 +1,16 @@
+.industrial__item {
+  list-style: none;
+  width: 140px;
+}
+
+@media (min-width: 768px) {
+  .industrial__item {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .industrial__item {
+    width: 255px;
+  }
+}
