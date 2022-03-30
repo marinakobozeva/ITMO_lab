@@ -1,14 +1,16 @@
-.lead {
+.about-us {
   padding: 30px 16px;
   background-image: url(../../images/background_image.svg);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: top right;
   background-size: 320px 412px;
 }
 
 @media screen and (min-width: 768px) {
-  .lead {
+  .about-us {
     min-width: 768px;
-    padding: 45px 0 60px 0;
+    padding: 58px 0px 58px 39px;
+    background-position: top center;
+    background-size: 1319px 938px;
   }
 }
