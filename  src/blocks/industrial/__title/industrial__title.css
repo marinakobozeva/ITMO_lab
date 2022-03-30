@@ -14,5 +14,14 @@
 @media (min-width: 768px) {
   .industrial__title {
     font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .industrial__title {
+    font-size: 36px;
+    line-height: 1.88;
+    margin-bottom: 60px;
   }
 }

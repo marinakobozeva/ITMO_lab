@@ -21,10 +21,17 @@
     padding: 12px;
     background-image: url(../../images/Lab/project.png);
     background-size: cover;
-    transition: transform 0.4s linear;
+    transition: transform 0.2s linear;
   }
 
   .card:hover {
     transform: translateY(-21.4px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .card{
+    padding: 30px 20px 20px;
+    background-image: none;
   }
 }

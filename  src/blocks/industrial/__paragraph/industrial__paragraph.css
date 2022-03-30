@@ -1,5 +1,6 @@
 .industrial__paragraph {
-  margin: 0 auto;
+  margin: 0;
+  max-width: 288px;
   margin-bottom: 20px;
   color: #000D26;
   font-family: "OpenSans", "Arial", sans-serif;
@@ -23,5 +24,13 @@
 
   .industrial__paragraph:last-of-type {
     margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .industrial__paragraph {
+    max-width: 540px;
+    font-size: 18px;
+    line-height: 1.66;
   }
 }

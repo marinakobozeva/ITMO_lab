@@ -7,3 +7,10 @@
     margin-bottom: 50px;
   }
 }
+
+@media (min-width: 1440px) {
+  .industrial__wrapper {
+    width: 1146px;
+    margin-bottom: 80px;
+  }
+}

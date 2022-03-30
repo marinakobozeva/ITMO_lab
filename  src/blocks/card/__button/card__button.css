@@ -19,3 +19,11 @@
     width: 126.5px;
   }
 }
+
+@media (min-width: 1440px) {
+  .card__button {
+    width: 215px;
+    font-size: 14px;
+    padding: 10.5px 69px;
+  }
+}

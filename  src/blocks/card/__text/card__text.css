@@ -31,3 +31,19 @@
     margin-bottom: 20px;
   }
 }
+
+@media (min-width: 1440px) {
+  .card__text {
+    font-size: 14px;
+    line-height: 1.42;
+    padding-top: 170px;
+    margin-bottom: 50px;
+  }
+
+  .card__text::before {
+    top: 50px;
+    left: 72.5px;
+    width: 70px;
+    height: 70px;
+  }
+}

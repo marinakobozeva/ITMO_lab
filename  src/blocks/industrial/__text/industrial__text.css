@@ -9,3 +9,11 @@
    width: 330px;
  }
 }
+
+@media (min-width: 1440px) {
+  .industrial__text {
+    width: 540px;
+    padding-left: 36px;
+
+  }
+}
