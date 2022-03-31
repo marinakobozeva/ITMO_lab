@@ -1,0 +1,10 @@
+.about-us__card {
+  position: relative;
+  box-sizing: border-box;
+  background-color: #E0F0FF;
+  border-radius: 5px;
+  border: none;
+  max-height: 250px;
+  max-width: 288px;
+  padding: 16px;
+}

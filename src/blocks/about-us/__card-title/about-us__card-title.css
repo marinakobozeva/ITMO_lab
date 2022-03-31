@@ -1,0 +1,10 @@
+.about-us__card-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.36;
+  margin: 0;
+  padding: 0 0 12px 0;
+  color: #001337;
+  text-transform: uppercase;
+  border-bottom: 1px solid #009FAC;
+}
