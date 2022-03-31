@@ -1,0 +1,27 @@
+.education__choice {
+    max-width: 290px;
+    height: 40px;
+    margin: 16px auto 0;
+    padding-bottom: 40px;
+    display: flex;
+    border-radius: 5px;
+    transform: translateX(2px);
+}
+
+@media screen and (min-width: 768px) {
+    .education__choice {
+        height: 44px;
+        padding-bottom: 60px;
+        margin: 30px auto 0;
+  }
+  }
+
+@media screen and (min-width: 1440px) {
+    .education__choice {
+        max-width: 540px;
+        height: 60px;
+        border-radius: 10px;
+        padding-bottom: 80px;
+        margin: 35px auto 0;
+  }
+  }

@@ -1,0 +1,29 @@
+.education__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .education__title {
+        font-size: 24px;
+        line-height: 33px;
+        padding: 60px 0 30px;
+        letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .education__title {
+        font-size: 36px;
+        line-height: 68px;
+        padding: 80px 0 30px;
+  }
+}

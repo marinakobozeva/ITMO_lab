@@ -1,0 +1,28 @@
+.education__choice-aspirant {
+    background: #009FAC;
+    border: 1px solid #E0F0FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.0588372px;
+    color: #FFFFFF;
+    width: 148.8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .education__choice-aspirant {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 279px;
+  }
+  }

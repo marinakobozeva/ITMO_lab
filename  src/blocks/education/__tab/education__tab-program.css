@@ -1,0 +1,23 @@
+.education__tab-program {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.0588372px;
+    color: #000D26;
+}
+
+@media screen and (min-width: 768px) {
+    .education__tab-program {
+        line-height: 20px;
+  }
+  }
+
+@media screen and (min-width: 1440px) {
+    .education__tab-program {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+  }
+  }

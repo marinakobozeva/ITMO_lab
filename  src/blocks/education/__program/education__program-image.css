@@ -1,0 +1,18 @@
+.education__program-image {
+    max-width: 256px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .education__program-image {
+        max-width: 280px;
+        border-radius: 10px;
+  }
+  }
+
+@media screen and (min-width: 1440px) {
+    .education__program-image {
+        max-width: 445px;
+        border-radius: 10px;
+  }
+  }

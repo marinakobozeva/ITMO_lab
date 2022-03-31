@@ -1,0 +1,30 @@
+.education__program {
+    padding: 16px 16px 20px;
+    max-width: 288px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .education__program {
+        padding: 20px 20px 26.5px;
+        max-width: 690px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+  }
+  }
+
+@media screen and (min-width: 1440px) {
+    .education__program {
+        padding: 30px 30px 35px;
+        max-width: 1169px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+  }
+  }
