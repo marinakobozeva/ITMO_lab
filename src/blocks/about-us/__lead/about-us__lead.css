@@ -10,6 +10,12 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .about-us__lead {
+    align-items: flex-end;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .about-us__lead {
     padding: 92px 165px 64px 0;

@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   .about-us__card-pin {
     height: 40.1px;
     top: -14.2px;

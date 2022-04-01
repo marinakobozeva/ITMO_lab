@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 769px) {
   .about-us__lead-background {
     min-width: 1440px;
     transform: scale(1, 1);

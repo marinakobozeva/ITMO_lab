@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   .about-us__subtitle-paragraph {
     text-align: left;
     width: 907px;
