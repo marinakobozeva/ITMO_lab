@@ -5,7 +5,7 @@
   border-radius: 5px;
   border: none;
   max-height: 250px;
-  min-width: 288px;
+  max-width: 288px;
   padding: 16px;
   margin-right: 10px;
 }
@@ -14,8 +14,17 @@
   .about-us__card {
     border-radius: 10px;
     max-height: 330px;
-    min-width: 330px;
+    max-width: 330px;
     padding: 20px;
     margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us__card {
+    max-height: 340px;
+    max-width: 348px;
+    padding: 20px 20px 30px 20px;
+    margin-right: 32px;
   }
 }

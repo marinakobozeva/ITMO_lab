@@ -14,3 +14,13 @@
     margin-bottom: 45px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .about-us__subtitle-paragraph {
+    text-align: left;
+    width: 907px;
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 45.5px;
+  }
+}
