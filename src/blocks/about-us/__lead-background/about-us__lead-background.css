@@ -19,11 +19,12 @@
   }
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .about-us__lead-background {
-    min-width: 768px;
-    height: 938px;
-    background-position: -284px -60px;
-    background-size: 1319px 938px;
+    min-width: 1440px;
+    transform: scale(1, 1);
+    height: 1024px;
+    background-position: -0px -80px;
+    background-size: 1440px 1024px;
   }
-} */
+}
