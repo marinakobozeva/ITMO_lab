@@ -13,3 +13,12 @@
   text-transform: uppercase;
   width: 288px;
 }
+
+@media screen and (min-width: 768px) {
+  .about-us__button {
+    padding: 15px 16px;
+    font-size: 18px;
+    line-height: 1.67;
+    width: 330px;
+  }
+}
