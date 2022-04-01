@@ -15,6 +15,7 @@
 @import url(../blocks/about-us/__button/about-us__button.css);
 @import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
 @import url(../blocks/about-us/__subtitle-paragraph/about-us__subtitle-paragraph.css);
+@import url(../blocks/about-us/__cards-container/about-us__cards-container.css);
 @import url(../blocks/about-us/__card/about-us__card.css);
 @import url(../blocks/about-us/__card-pin/about-us__card-pin.css);
 @import url(../blocks/about-us/__card-date/about-us__card-date.css);
