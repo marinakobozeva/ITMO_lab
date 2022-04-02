@@ -1,3 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+/* Team Section */
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__subtitle/team__subtitle.css);
+@import url(../blocks/team/__cards-container/team__cards-container.css);
+@import url(../blocks/team/__card/team__card.css);
+@import url(../blocks/team/__employee-photo/team__employee-photo.css);
+@import url(../blocks/team/__employee-name/team__employee-name.css);
+@import url(../blocks/team/__job-position/team__job-position.css);

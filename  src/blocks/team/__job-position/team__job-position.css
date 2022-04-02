@@ -1,0 +1,10 @@
+.team__job-position {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 10px;
+  line-height: 1.36;
+  color: #009FAC;
+  text-align: center;
+}
