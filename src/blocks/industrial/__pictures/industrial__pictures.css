@@ -1,0 +1,22 @@
+.industrial__pictures {
+  margin: 0 auto;
+  width: 288px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .industrial__pictures {
+    margin: 0;
+    width: 330px;
+    height: 240px;
+    order: 1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .industrial__pictures {
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+  }
+}

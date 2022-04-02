@@ -1,9 +1,7 @@
 .page {
+  background-color: #001337;
   min-width: 320px;
   width: 100%;
-  background-color: #001337;
-  color: white;
-  padding: 0;
   margin: 0 auto;
   font-family: 'Open Sans', 'Arial', sans-serif;
   --webkit-font-smoothing: antialiased;
@@ -20,14 +18,8 @@
   }
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .page {
-    min-width: 1024px;
+    min-width: 1440px;
   }
-} */
-
-/* @media screen and (min-width: 1280px) {
-  .page {
-    min-width: 1280px;
-  }
-} */
+}

@@ -1,0 +1,23 @@
+.industrial__list {
+  margin: 0 auto;
+  padding: 0;
+  width: 288px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .industrial__list {
+    flex-wrap: nowrap;
+    width: 690px;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .industrial__list {
+    width: 1110px;
+  }
+}

@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .industrial__wrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 690px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .industrial__wrapper {
+    width: 1146px;
+    margin-bottom: 80px;
+  }
+}

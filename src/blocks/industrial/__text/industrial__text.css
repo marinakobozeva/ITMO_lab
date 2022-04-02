@@ -1,0 +1,19 @@
+.industrial__text {
+  margin: 0 auto;
+  width: 288px;
+}
+
+@media (min-width: 768px) {
+ .industrial__text {
+   margin: 0;
+   width: 330px;
+ }
+}
+
+@media (min-width: 1440px) {
+  .industrial__text {
+    width: 540px;
+    padding-left: 36px;
+
+  }
+}

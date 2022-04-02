@@ -1,0 +1,6 @@
+@media (min-width: 1440px) {
+  .card_image_machine-learning {
+    background-image: url(../../../images/Lab/machine-learning.png);
+    background-size: cover;
+  }
+}

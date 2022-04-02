@@ -1,0 +1,6 @@
+@media (min-width: 1440px) {
+  .card_image_data {
+    background-image: url(../../../images/Lab/data.png);
+    background-size: cover;
+  }
+}
