@@ -8,3 +8,10 @@
   color: #009FAC;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .team__job-position {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+}
