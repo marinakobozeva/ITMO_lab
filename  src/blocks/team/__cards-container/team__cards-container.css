@@ -1,7 +1,9 @@
 .team__cards-container {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-items: center;
   margin: 0 0 -130px 0;
+  /* padding-bottom: 130px; */
 }
