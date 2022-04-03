@@ -12,6 +12,13 @@
 @media screen and (min-width: 768px) {
   .team__employee-name {
     font-size: 14px;
-    letter-spacing: normal  ;
+    letter-spacing: normal;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .team__employee-name {
+    font-size: 18px;
+    line-height: 1.67;
   }
 }

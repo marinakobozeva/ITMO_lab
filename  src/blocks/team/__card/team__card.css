@@ -19,3 +19,11 @@
     margin-right: 30px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .team__card {
+    width: 255px;
+    height: 439px;
+    border-radius: 10px;
+  }
+}

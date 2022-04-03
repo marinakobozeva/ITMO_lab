@@ -1,9 +1,9 @@
 .team {
   box-sizing: border-box;
-  padding: 27px 0 27px 0;
+  padding-bottom: 27px;
   width: 100%;
   min-width: 320px;
-  height: 350px;
+  height: 370px;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,15 @@
 @media screen and (min-width: 768px) {
   .team {
     min-width: 768px;
-    padding: 40px 0 40px 0;
-    height: 480px;
+    padding-bottom: 40px;
+    height: 513px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .team {
+    min-width: 1440px;
+    padding-bottom: 100px;
+    height: 675px;
   }
 }
