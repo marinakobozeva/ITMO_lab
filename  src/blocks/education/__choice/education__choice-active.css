@@ -1,0 +1,12 @@
+.education__choice-active {
+    background: #E0F0FF;
+    color: #000D26;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 53%;
+    height: 103%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.01);
+}

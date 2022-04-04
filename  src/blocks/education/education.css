@@ -1,3 +1,19 @@
 .education {
     background: #009FAC;
+    min-width: 320px;
+    min-height: 886px;
 }
+
+@media screen and (min-width: 768px) {
+    .education {
+        min-width: 768px;
+        min-height: 719px;
+  }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .education {
+        min-width: 1440px;
+        min-height: 990px;
+  }
+  }
