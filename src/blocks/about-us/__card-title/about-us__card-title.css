@@ -1,0 +1,21 @@
+.about-us__card-title {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.36;
+  margin: 0 0 12px 0;
+  padding: 0 0 12px 0;
+  color: #001337;
+  text-transform: uppercase;
+  border-bottom: 1px solid #009FAC;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__card-title {
+    font-size: 18px;
+    line-height: 1.67;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    max-height: 90px;
+  }
+}

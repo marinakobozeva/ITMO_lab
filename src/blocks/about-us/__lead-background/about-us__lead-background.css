@@ -1,0 +1,30 @@
+.about-us__lead-background {
+  position: absolute;
+  z-index: -5;
+  min-width: 320px;
+  height: 412px;
+  background-image: url(../../../images/background-image.png);
+  background-repeat: no-repeat;
+  background-position: -180px 0;
+  background-size: 579px 412px;
+  transform: scale(-1, 1);
+}
+
+@media screen and (min-width: 321px) {
+  .about-us__lead-background {
+    min-width: 768px;
+    height: 938px;
+    background-position: -284px -60px;
+    background-size: 1319px 938px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .about-us__lead-background {
+    min-width: 1440px;
+    transform: scale(1, 1);
+    height: 1024px;
+    background-position: -0px -80px;
+    background-size: 1440px 1024px;
+  }
+}

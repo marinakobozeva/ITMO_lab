@@ -1,5 +1,25 @@
 .page {
-  margin: 0 auto;
+  background-color: #001337;
   min-width: 320px;
-  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  --webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page {
+    min-width: 1440px;
+  }
 }
