@@ -1,0 +1,19 @@
+.popup__list {
+  margin: 0;
+  padding-left: 23px;
+}
+
+@media (min-width: 768px) {
+  .popup__list {
+    grid-column: 2/-1;
+    grid-row: 3/-1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .popup__list {
+    padding-left: 33px;
+    grid-column: 2/-1;
+    grid-row: 4/-1;
+  }
+}

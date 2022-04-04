@@ -1,0 +1,18 @@
+.popup__item {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 11.92px;
+  line-height: 1.36;
+}
+
+@media (min-width: 768px) {
+  .popup__item {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .popup__item {
+    font-size: 18px;
+  }
+}

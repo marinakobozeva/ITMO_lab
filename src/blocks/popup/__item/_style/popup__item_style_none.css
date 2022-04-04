@@ -1,0 +1,11 @@
+.popup__item_style_none {
+  margin: 0;
+  list-style: none;
+  margin-left: -23px;
+}
+
+@media (min-width: 1440px) {
+  .popup__item_style_none {
+    margin-left: -33px;
+  }
+}
