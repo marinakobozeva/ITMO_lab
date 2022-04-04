@@ -22,7 +22,8 @@
           профильную компанию ООО «НЦЭО» в области электронного и дистанционного образования. Реализуются 
           образовательные программы различных форматов.</p>
       <article class="education__program">
-        <img class="education__program-image" alt="Выпускники учебного заведения" src="./images/image43.jpg"/>
+        <template class="program__template program__template-magistr">
+        <img class="education__program-image" alt="Выпускники учебного заведения" src="./images/Magistr.png"/>
         <div class="education__program-tab">
         <h3 class="education__tab-title">Образовательные программы аспирантуры в области 
           МО и КТ</h3>
@@ -36,12 +37,31 @@
               <li class="education__tab-program">Семантические системы и инженерия знаний;</li>
               <li class="education__tab-program">Технологии разработки компьютерных игр</li>
           </ul>
-          <button class="education__program-more">Подробнее&rarr;</button>
+          <a href="https://aspirantura.itmo.ru/?main=12"  target="_blank" class="education__program-more">Подробнее&rarr;</a>
         </div>
+      </template>
+      <template class="program__template program__template-aspirant">
+        <img class="education__program-image" alt="Выпускники учебного заведения" src="./images/Aspirant.png"/>
+        <div class="education__program-tab">
+        <h3 class="education__tab-title">Образовательные программы аспирантуры в области 
+          МО и КТ</h3>
+          <ul class="education__tab-list">
+              <li class="education__tab-program">Прикладные технологии искусственного интеллекта;</li>
+              <li class="education__tab-program">Машинное обучение и искусственный интеллект;</li>
+              <li class="education__tab-program">Биометрические информационные системы;</li>
+              <li class="education__tab-program">Речевые информационные системы;</li>
+              <li class="education__tab-program">Когнитивные вычисления и квантовый интеллект;</li>
+              <li class="education__tab-program">Большие данные и экстренные вычисления;</li>
+              <li class="education__tab-program">Семантические системы и инженерия знаний;</li>
+              <li class="education__tab-program">Технологии разработки компьютерных игр</li>
+          </ul>
+          <a href="https://aspirantura.itmo.ru/?main=12"  target="_blank" class="education__program-more">Подробнее&rarr;</a>
+        </div>
+      </template>
       </article>
       <div class="education__choice">
-          <p class="education__choice-button education__choice-active">Аспирантура</p>
-          <p class="education__choice-button">Магистратура</p>
+          <p class="education__choice-button education__choice-aspirant" id="aspirant">Аспирантура</p>
+          <p class="education__choice-button education__choice-magistr education__choice-active" id="magistr">Магистратура</p>
       </div>
   </section>
   <section class="publications">
@@ -51,5 +71,6 @@
   <section class="connection"></section>
 </main>
 <footer class="footer"></footer>
+<script src="pages/index.js"></script>
 </body>
 </html>
