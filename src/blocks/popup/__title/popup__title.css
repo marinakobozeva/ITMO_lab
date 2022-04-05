@@ -1,0 +1,23 @@
+.popup__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+@media (min-width: 768px) {
+  .popup__title {
+    margin-bottom: 0;
+    grid-column: 2/-1;
+    grid-row: 1/2;
+  }
+}
+
+@media (min-width: 1440px) {
+  .popup__title {
+    font-size: 18px;
+    line-height: 1.66;
+  }
+}

@@ -1,0 +1,19 @@
+.popup__text_subparagraph {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .popup__text_subparagraph {
+    display: block;
+    grid-column: 2/-1;
+    grid-row: 2/3;
+  }
+}
+
+@media (min-width: 1440px) {
+  .popup__text_subparagraph {
+    display: block;
+    grid-column: 2/-1;
+    grid-row: 3/4;
+  }
+}
