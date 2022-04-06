@@ -23,7 +23,7 @@
         <h2 class="about-us__subtitle">Несколько слов о нас</h2>
         <p class="about-us__subtitle-paragraph">Национальный центр когнитивных разработок –&nbsp;центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и&nbsp;когнитивные технологии».</p>
         <div class="about-us__cards-container">
-          <article class="about-us__card">
+          <!-- <article class="about-us__card">
             <img src="./images/card_pin.svg" alt="Декоративная булавка на карточку" class="about-us__card-pin">
             <p class="about-us__card-date">Понедельник, 5 июля 2021г</p>
             <h3 class="about-us__card-title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими нов...</h3>
@@ -40,7 +40,7 @@
             <p class="about-us__card-date">Понедельник, 5 июля 2021г</p>
             <h3 class="about-us__card-title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими нов...</h3>
             <p class="about-us__card-paragraph">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех принес Роберт&nbsp;Роботецкий&nbsp;— робот-виртуоз, исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
-          </article>
+          </article> -->
         </div>
       </div>
     </section>
@@ -112,5 +112,16 @@
     <section class="connection"></section>
   </main>
   <footer class="footer"></footer>
+
+  <template class="newsCardTemplate">
+    <article class="about-us__card">
+      <img alt="" class="about-us__card-pin">
+      <p class="about-us__card-date"></p>
+      <h3 class="about-us__card-title"></h3>
+      <p class="about-us__card-paragraph"></p>
+    </article>
+  </template>
+
+  <script type="module" src="./pages/index.js"></script>
 </body>
 </html>
