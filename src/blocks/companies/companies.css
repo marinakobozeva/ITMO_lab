@@ -1,0 +1,33 @@
+.companies {
+  max-width: 100%;
+  background: #001337;
+  padding: 197px 16px 40px;
+}
+
+@media screen and  (min-width: 768px) {
+  .companies {
+    padding: 280px 39px 60px;
+  }
+}
+
+@media screen and  (min-width: 1024px) {
+  .companies {
+    padding-top: 310px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and  (min-width: 1280px) {
+  .companies {
+    padding-top: 350px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+
+@media screen and  (min-width: 1440px) {
+  .companies {
+    padding: 385px 165px 80px;
+  }
+}

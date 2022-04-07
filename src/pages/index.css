@@ -49,3 +49,11 @@
 @import url(../blocks/card/_icon/card_icon_micro.css);
 @import url(../blocks/card/_icon/card_icon_project.css);
 @import url(../blocks/card/__button/card__button.css);
+
+/*section companies*/
+@import url(../blocks/companies/companies.css);
+@import url(../blocks/companies/__container/companies__container.css);
+@import url(../blocks/companies/__title/companies__title.css);
+@import url(../blocks/companies/__subtitle/companies__subtitle.css);
+@import url(../blocks/companies/__group/companies__group.css);
+@import url(../blocks/companies/__group-item/companies__group-item.css);
