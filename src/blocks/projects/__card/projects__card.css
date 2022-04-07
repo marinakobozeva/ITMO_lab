@@ -1,0 +1,28 @@
+.projects__card{
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
+  max-height: 130px;
+  background: #009FAC;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px){
+  .projects__card {
+    max-width: 210px;
+    max-height: 199px;
+    border-radius: 10px;
+    padding: 16px;
+    background-image: url(../../../images/Projects/Card-background2.svg);
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .projects__card {
+    max-width: 254px;
+    max-height: 258px;
+    padding: 20px;
+  }
+}
+

@@ -1,0 +1,20 @@
+.projects__card-logo{
+  max-width: 100%;
+  max-height: 30px;
+  margin-bottom: 8px;
+  align-self: start;
+}
+
+@media screen and (min-width: 768px){
+  .projects__card-logo {
+    max-height: 48px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .projects__card-logo {
+    margin-bottom: 20px;
+  }
+}
+

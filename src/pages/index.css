@@ -4,6 +4,10 @@
 /* Page */
 @import url(../blocks/page/page.css);
 
+/*общее для всех блоков*/
+@import url(../blocks/button/button.css);
+
+
 /* About-us Section */
 @import url(../blocks/about-us/about-us.css);
 @import url(../blocks/about-us/__lead/about-us__lead.css);
@@ -49,6 +53,16 @@
 @import url(../blocks/card/_icon/card_icon_micro.css);
 @import url(../blocks/card/_icon/card_icon_project.css);
 @import url(../blocks/card/__button/card__button.css);
+
+/*section projects*/
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__container/projects__container.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__group-cards/projects__group-cards.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__card-logo/projects__card-logo.css);
+@import url(../blocks/projects/__text/projects__text.css);
+@import url(../blocks/button/_card-open/button_card-open.css);
 
 /*section companies*/
 @import url(../blocks/companies/companies.css);

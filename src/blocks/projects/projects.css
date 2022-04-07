@@ -1,0 +1,32 @@
+.projects{
+  background: #001337;
+  max-width: 100%;
+  padding: 40px 16px;
+}
+
+@media screen and  (min-width: 768px) {
+  .projects {
+    padding: 60px 39px;
+  }
+}
+
+/* @media screen and  (min-width: 1024px) {
+  .projects {
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and  (min-width: 1280px) {
+  .projects {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+} */
+
+@media screen and  (min-width: 1440px) {
+  .projects {
+    padding: 80px 165px 61px;
+  }
+}
