@@ -1,0 +1,6 @@
+.footer__itmo-copyright {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 49px;
+    padding-bottom: 40px;
+}

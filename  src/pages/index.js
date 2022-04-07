@@ -1,7 +1,7 @@
 const educationProgram = document.querySelector('.education__program');
 const educationTabs = document.querySelectorAll('.education__choice-button');
-const aspirantChoice = document.querySelector('.program__template-aspirant').content;
-const magistrChoice = document.querySelector('.program__template-magistr').content;
+const aspirantChoice = document.querySelector('.education__template-aspirant').content;
+const magistrChoice = document.querySelector('.education__template-magistr').content;
 
 document.addEventListener('DOMContentLoaded', function (event) {
     displayTemplate(educationProgram, magistrChoice)

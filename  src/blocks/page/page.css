@@ -1,16 +1,16 @@
 .page {
   margin: 0 auto;
-  width: 320px;
+  min-width: 320px;
 }
 
 @media screen and (min-width: 768px) {
   .page {
-    width: 768px;
+    min-width: 768px;
 }
 }
 
 @media screen and (min-width: 1440px) {
   .page {
-    width: 1440px;
+    min-width: 1440px;
 }
 }
