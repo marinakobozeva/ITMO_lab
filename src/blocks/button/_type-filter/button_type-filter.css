@@ -1,0 +1,53 @@
+.button_type-filter{
+  min-width: 288px;
+  min-height: 44px;
+  background: #001337;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-align: start;
+  background-image: url(../../../images/Projects/Button-filter.svg);
+  background-size: 12px 6px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.button_type-filter:hover{
+  border-bottom: 2px solid #009FAC;
+}
+
+@media screen and (min-width: 768px){
+  .button_type-filter {
+    min-width: 172px;
+    margin-right: 0.67px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    background-image: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .button_type-filter:hover {
+    border-bottom: 4.6px solid #009FAC;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .button_type-filter {
+    min-width: 278px;
+    min-height: 48px;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .button_type-filter:hover {
+    border-bottom: 5px solid #009FAC;
+  }
+}

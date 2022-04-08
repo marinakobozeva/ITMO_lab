@@ -1,0 +1,20 @@
+.projects__pagination{
+  width: 288px;
+  height: 30px;
+  background-image: url(../../../images/Projects/Pagination.svg);
+}
+
+@media screen and (min-width: 768px){
+  .projects__pagination {
+    width: 442px;
+    background-image: url(../../../images/Projects/Pagination768.svg);
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .projects__pagination {
+    width: 344px;
+    height: 32px;
+    background-image: url(../../../images/Projects/Pagination1440.svg);
+  }
+}
