@@ -108,53 +108,12 @@
       <div class="projects__container">
         <h2 class="projects__title">НАШИ ПРОЕКТЫ</h2>
         <article class="projects__group-filter">
-          <button class="button button_type-filter">ВСЕ ПРОЕКТЫ</button>
-          <!-- <button class="button button_type-filter">ГОС. ПРОЕКТЫ</button>
-          <button class="button button_type-filter">СПЕЦПРОГРАММЫ</button>
-          <button class="button button_type-filter">В РАЗРАБОТКЕ</button> -->
+          <button id="allProjects" type="button" class="button button_type-filter">ВСЕ ПРОЕКТЫ</button>
+          <button id="stateProjects" type="button" class="button button_type-filter">ГОС. ПРОЕКТЫ</button>
+          <button id="specialProjects" type="button" class="button button_type-filter">СПЕЦПРОГРАММЫ</button>
+          <button id="developmentProjects" type="button" class="button button_type-filter">В РАЗРАБОТКЕ</button>
         </article>
-        <article class="projects__group-cards">
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <!-- <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div>
-          <div class="projects__card">
-            <img class="projects__card-logo" src="./images/companies-logo/logo_gazprom.svg">
-            <p class="projects__text">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
-            <button class="button button_card-open"></button>
-          </div> -->
-        </article>
+        <article class="projects__group-cards"></article>
         <div class="projects__pagination"></div>
       </div>
     </section>
@@ -182,5 +141,17 @@
     <section class="connection"></section>
   </main>
   <footer class="footer"></footer>
+  <template id="projects-template" class="projects-template projects-template_type_default">
+    <article class="projects__card">
+      <img class="projects__card-logo" src="" alt="">
+      <p class="projects__text"></p>
+      <button class="button button_card-open" aria-label="Подробнее"></button>
+      <p class="projects__filter-group" hidden></p>
+    </article>
+  </template>
+  <script type="module" src="./pages/index.js"></script>
+  <!-- <script type="module" src="./scripts/initialCardsProjects.js"></script>
+  <script type="module" src="./components/Card.js"></script>
+  <script type="module" src="./components/Section.js"></script> -->
 </body>
 </html>

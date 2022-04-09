@@ -62,6 +62,7 @@
 @import url(../blocks/button/_type-filter/button_type-filter.css);
 @import url(../blocks/projects/__group-cards/projects__group-cards.css);
 @import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__card/_hide/projects__card_hide);
 @import url(../blocks/projects/__card-logo/projects__card-logo.css);
 @import url(../blocks/projects/__text/projects__text.css);
 @import url(../blocks/button/_card-open/button_card-open.css);

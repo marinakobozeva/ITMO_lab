@@ -13,6 +13,11 @@
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: center;
+  display: none;
+}
+
+.button_type-filter:first-of-type{
+  display: inline;
 }
 
 .button_type-filter:hover{
@@ -27,6 +32,7 @@
     line-height: 19px;
     text-align: center;
     background-image: none;
+    display: inline;
   }
 }
 
