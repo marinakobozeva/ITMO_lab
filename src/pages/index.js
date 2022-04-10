@@ -4,8 +4,8 @@
 //   aboutUsNewsCardsContainerSelector,
 // } from '../utils/constants.js';
 
-// import {NewsCard} from '../components/NewsCard';
-// import {AboutUsSection} from '../components/AboutUsSection.js';
+// import NewsCard from '../components/NewsCard';
+import CardsSection from '../components/CardsSection.js';
 
 // const aboutUsSection = new AboutUsSection({
 //   renderer: getItem
@@ -93,34 +93,43 @@ const aboutUsNewsCards = [
   },
 ];
 
-const aboutUsNewsCardsContainerSelector = '.about-us__cards-container';
+// const aboutUsNewsCardsContainerSelector = '.about-us__cards-container';
 
-const aboutUsNewsCardsContainer = document.querySelector(aboutUsNewsCardsContainerSelector);
-const newsCardsTemplate = document.querySelector('.newsCardTemplate');
+// const aboutUsNewsCardsContainer = document.querySelector(aboutUsNewsCardsContainerSelector);
+// const newsCardsTemplate = document.querySelector('.news-card-template');
 
 
-// Render cards with pictures
-function getItem(item) {
-  const newsCard = newsCardsTemplate
-    .content
-    .querySelector('.about-us__card')
-    .cloneNode(true);
+// // Render cards with pictures
+// function getItem(item) {
+//   const newsCard = newsCardsTemplate
+//     .content
+//     .querySelector('.about-us__card')
+//     .cloneNode(true);
 
-    const newsCardDate = newsCard.querySelector('.about-us__card-date');
-    const newsCardTitle = newsCard.querySelector('.about-us__card-title');
-    const newsCardContent = newsCard.querySelector('.about-us__card-paragraph');
+//     const newsCardDate = newsCard.querySelector('.about-us__card-date');
+//     const newsCardTitle = newsCard.querySelector('.about-us__card-title');
+//     const newsCardContent = newsCard.querySelector('.about-us__card-paragraph');
 
-    newsCardDate.textContent = item.date;
-    newsCardTitle.textContent = item.title;
-    newsCardContent.textContent = item.content;
+//     newsCardDate.textContent = item.date;
+//     newsCardTitle.textContent = item.title;
+//     newsCardContent.textContent = item.content;
 
-    return newsCard;
-}
+//     return newsCard;
+// }
 
-function render() {
-  const html = aboutUsNewsCards.map(getItem);
+// function render() {
+//   const html = aboutUsNewsCards.map(getItem);
 
-  aboutUsNewsCardsContainer.append(...html);
-}
+//   aboutUsNewsCardsContainer.append(...html);
+// }
 
-render();
+// render();
+
+
+const aboutUsMainSection = document.querySelector('.about-us__main');
+
+const cardsSection = new CardsSection('.cards-section-template');
+
+aboutUsMainSection.append(cardsSection.getView());
+
+

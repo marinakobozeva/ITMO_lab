@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <script src="./pages/index.js" defer></script>
   <title>itmo</title>
 </head>
 <body class="page">
@@ -23,7 +22,7 @@
       <div class="about-us__main">
         <h2 class="about-us__subtitle">Несколько слов о нас</h2>
         <p class="about-us__subtitle-paragraph">Национальный центр когнитивных разработок –&nbsp;центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и&nbsp;когнитивные технологии».</p>
-        <div class="about-us__cards-container">
+        <!-- <div class="about-us__cards-container"> -->
           <!-- <article class="about-us__card">
             <img src="./images/card_pin.svg" alt="Декоративная булавка на карточку" class="about-us__card-pin">
             <p class="about-us__card-date">Понедельник, 5 июля 2021г</p>
@@ -42,7 +41,7 @@
             <h3 class="about-us__card-title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими нов...</h3>
             <p class="about-us__card-paragraph">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех принес Роберт&nbsp;Роботецкий&nbsp;— робот-виртуоз, исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
           </article> -->
-        </div>
+        <!-- </div> -->
       </div>
     </section>
     <section class="industrial">
@@ -114,7 +113,11 @@
   </main>
   <footer class="footer"></footer>
 
-  <template class="newsCardTemplate">
+  <template class="cards-section-template">
+    <div class="about-us__cards-container"></div>
+  </template>
+
+  <template class="news-card-template">
     <article class="about-us__card">
       <img src="./images/card_pin.svg" alt="Декоративная булавка на карточку" class="about-us__card-pin">
       <p class="about-us__card-date"></p>
@@ -123,6 +126,6 @@
     </article>
   </template>
 
-  <!-- <script type="module" src="./pages/index.js"></script> -->
+  <script type="module" src="./pages/index.js"></script>
 </body>
 </html>
