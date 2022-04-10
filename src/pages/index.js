@@ -96,23 +96,31 @@ const aboutUsNewsCards = [
 const aboutUsNewsCardsContainerSelector = '.about-us__cards-container';
 
 const aboutUsNewsCardsContainer = document.querySelector(aboutUsNewsCardsContainerSelector);
+const newsCardsTemplate = document.querySelector('.newsCardTemplate');
+
 
 // Render cards with pictures
 function getItem(item) {
-  return `<article class="about-us__card">
-            <img src="./images/card_pin.svg" alt="Декоративная булавка на карточку" class="about-us__card-pin">
-            <p class="about-us__card-date">${item.date}</p>
-            <h3 class="about-us__card-title">${item.title}</h3>
-            <p class="about-us__card-paragraph">${item.content}</p>
-          </article>`
+  const newsCard = newsCardsTemplate
+    .content
+    .querySelector('.about-us__card')
+    .cloneNode(true);
+
+    const newsCardDate = newsCard.querySelector('.about-us__card-date');
+    const newsCardTitle = newsCard.querySelector('.about-us__card-title');
+    const newsCardContent = newsCard.querySelector('.about-us__card-paragraph');
+
+    newsCardDate.textContent = item.date;
+    newsCardTitle.textContent = item.title;
+    newsCardContent.textContent = item.content;
+
+    return newsCard;
 }
 
 function render() {
-  const html = aboutUsNewsCards
-    .map(getItem)
-    .join('')
+  const html = aboutUsNewsCards.map(getItem);
 
-  aboutUsNewsCardsContainer.insertAdjacentHTML('afterbegin', html);
+  aboutUsNewsCardsContainer.append(...html);
 }
 
 render();
