@@ -5,5 +5,14 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.0588372px;
-    margin: 0;
+    margin: 0 0 8px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer__content-about {
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      margin-bottom: 12px;
+    }
+  }
+

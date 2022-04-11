@@ -4,3 +4,10 @@
     gap: 49px;
     padding-bottom: 40px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer__itmo-copyright {
+      display: block;
+      padding-bottom: 30px;
+    }
+  }

@@ -3,3 +3,9 @@
     color: #FFFFFF;
     padding: 40px 16px 33px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 60px 39px;
+    }
+  }

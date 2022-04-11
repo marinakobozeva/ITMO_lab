@@ -7,4 +7,12 @@
     align-items: center;
     letter-spacing: 0.1px;
     color: #FFFFFF;
+    text-decoration:none
 }
+
+@media screen and (min-width: 768px) {
+    .footer__about-info {
+        line-height: 16px;
+        margin-bottom: 8px;
+    }
+  }

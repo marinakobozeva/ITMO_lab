@@ -8,3 +8,11 @@
     margin: 0 auto;
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .footer__author {
+        line-height: 20px;
+        text-align: left;
+        transform: translateY(-22px);
+    }
+  }
