@@ -1,7 +1,9 @@
+import NewsCard from '../components/NewsCard.js';
+
 export default class CardsSection {
-  constructor(selector) {
-    // this._renderer = renderer;
+  constructor(selector, cards) {
     this._selector = selector;
+    this._cards = cards;
   }
 
   _getTemplate() {
@@ -12,19 +14,13 @@ export default class CardsSection {
   }
 
   getView() {
-    return this._getTemplate();
+    this._element = this._getTemplate();
+
+    this._cards.forEach(item => {
+      const card = new NewsCard('.news-card-template', item);
+      this._element.append(card.getView());
+    });
+
+    return this._element;
   }
-
-  // Render cards with pictures
-  // addItem(element) {
-  //   this._container.prepend(element);
-  // }
-
-  // render(items) {
-  //   items.forEach((item) => {
-  //     const cardElement = this._renderer(item)
-
-  //     this.addItem(cardElement);
-  //   })
-  // }
 }
