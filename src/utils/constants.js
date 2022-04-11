@@ -1,5 +1,5 @@
-// About Us News Cards
-export const newsCard = [
+// About Us News Cards Section
+export const aboutUsNewsCards = [
   {
     date: 'Понедельник, 5 июля 2021г',
     title: 'Знакомство с машинным обучением: студенты евразийского националь…',
@@ -62,4 +62,4 @@ export const newsCard = [
   },
 ];
 
-
+export const aboutUsMainSection = document.querySelector('.about-us__main');
