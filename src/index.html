@@ -107,11 +107,20 @@
     <section class="projects">
       <div class="projects__container">
         <h2 class="projects__title">НАШИ ПРОЕКТЫ</h2>
-        <article class="projects__group-filter">
-          <button id="allProjects" type="button" class="button button_type-filter">ВСЕ ПРОЕКТЫ</button>
-          <button id="stateProjects" type="button" class="button button_type-filter">ГОС. ПРОЕКТЫ</button>
-          <button id="specialProjects" type="button" class="button button_type-filter">СПЕЦПРОГРАММЫ</button>
-          <button id="developmentProjects" type="button" class="button button_type-filter">В РАЗРАБОТКЕ</button>
+        <article class="projects__menu">
+          <ul class="projects__group-filter">
+            <li class="projects__menu_item"><button id="allProjects" name="allProjects" type="button" class="button button_type-filter">ВСЕ ПРОЕКТЫ</button>
+              <ul class="projects__sub-menu_list">
+                <li><button id="sub-allProjects" name="allProjects" type="button" class="button button_type-menu">Все проекты</button></li>
+                <li><button id="sub-stateProjects" name="stateProjects" type="button" class="button button_type-menu">Гос. проекты</button></li>
+                <li><button id="sub-specialProjects" name="specialProjects" type="button" class="button button_type-menu">Спецпрограммы</button></li>
+                <li><button id="sub-developmentProjects" name="developmentProjects" type="button" class="button button_type-menu">В разработке</button></li>
+              </ul>
+            </li>
+            <li class="projects__menu_item"><button id="stateProjects" name="stateProjects" type="button" class="button button_type-filter">ГОС. ПРОЕКТЫ</button></li>
+            <li class="projects__menu_item"><button id="specialProjects" name="specialProjects" type="button" class="button button_type-filter">СПЕЦПРОГРАММЫ</button></li>
+            <li class="projects__menu_item"><button id="developmentProjects" name="developmentProjects" type="button" class="button button_type-filter">В РАЗРАБОТКЕ</button></li>
+          </ul>
         </article>
         <article class="projects__group-cards"></article>
         <div class="projects__pagination"></div>
@@ -150,8 +159,5 @@
     </article>
   </template>
   <script type="module" src="./pages/index.js"></script>
-  <!-- <script type="module" src="./scripts/initialCardsProjects.js"></script>
-  <script type="module" src="./components/Card.js"></script>
-  <script type="module" src="./components/Section.js"></script> -->
 </body>
 </html>

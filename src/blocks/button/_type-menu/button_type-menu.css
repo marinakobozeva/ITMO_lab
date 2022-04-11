@@ -1,0 +1,11 @@
+.button_type-menu{
+  min-width: 100%;
+  min-height: 44px;
+  background: #000D26;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: start;
+}

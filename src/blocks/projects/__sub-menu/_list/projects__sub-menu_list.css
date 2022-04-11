@@ -1,0 +1,8 @@
+.projects__sub-menu_list{
+  list-style: none;
+  padding: 16px 0 88px 16px;
+  width: 272px;
+  background: #000D26;
+  display: none;
+  position: absolute;
+}

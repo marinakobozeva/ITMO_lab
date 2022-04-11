@@ -1,6 +1,9 @@
 .projects__group-filter{
   width: 100%;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
   display: flex;
   justify-content: center;
+  list-style: none;
+  padding: 0;
 }

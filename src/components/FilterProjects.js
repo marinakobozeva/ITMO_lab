@@ -1,4 +1,4 @@
-export class Filter{
+export class FilterProjects{
   constructor( button){
     this._button = button;
   }
@@ -10,7 +10,7 @@ export class Filter{
     this._itemsArray.forEach((item) => {
       this._item = item;
       this._itemId = this._item.querySelector('.projects__filter-group').textContent;
-      if(this._button.id === this._itemId || this._button.id === 'allProjects'){
+      if(this._button.name === this._itemId || this._button.name === 'allProjects'){
         this._item.classList.remove('projects__card_hide')
       }else{
         this._item.classList.add('projects__card_hide')
