@@ -8,3 +8,10 @@
     height: 33px;
     margin: 0;
 }
+
+@media screen and (min-width: 1440px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 19px;
+  }
+  }

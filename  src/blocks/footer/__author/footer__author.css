@@ -16,3 +16,11 @@
         transform: translateY(-22px);
     }
   }
+
+  @media screen and (min-width: 1440px) {
+    .footer__author {
+        font-size: 14px;
+        line-height: 19px;
+        transform: translateY(0px);
+  }
+  }

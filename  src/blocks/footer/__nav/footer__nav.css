@@ -8,3 +8,9 @@
       gap: 40px;
     }
   }
+
+@media screen and (min-width: 1440px) {
+    .footer__nav {
+        gap: 185px;
+  }
+  }

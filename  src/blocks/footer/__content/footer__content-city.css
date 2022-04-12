@@ -7,8 +7,15 @@
     margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .footer__content-city {
         margin-bottom: 4px;
     }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .footer__content-city {
+        font-sixe: 18px;
+        line-height: 30px;
+  }
   }

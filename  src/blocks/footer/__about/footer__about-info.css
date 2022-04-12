@@ -16,3 +16,9 @@
         margin-bottom: 8px;
     }
   }
+
+@media screen and (min-width: 1440px) {
+    .footer__content-about {
+        line-height: 19px;
+  }
+  }

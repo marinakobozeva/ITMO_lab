@@ -7,3 +7,10 @@
     letter-spacing: 0.1px;
     margin-top: 8px;
 }
+
+@media screen and (min-width: 1440px) {
+    .footer__location-info {
+        font-size: 14px;
+        line-height: 19px;
+  }
+  }

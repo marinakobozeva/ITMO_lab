@@ -10,3 +10,9 @@
         margin-bottom: 30px;
     }
   }
+
+@media screen and (min-width: 1440px) {
+    .footer__logo {
+        margin-bottom: 37.5px;
+  }
+  }
