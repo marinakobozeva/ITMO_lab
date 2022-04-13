@@ -1,0 +1,38 @@
+.projects__link{
+  display: none;
+}
+
+@media screen and (min-width: 768px){
+.projects__link::after {
+  content: '\2192';
+}
+}
+@media screen and (min-width: 768px){
+.projects__link:hover {
+  opacity: 0.6;
+}
+}
+
+@media screen and (min-width: 768px){
+  .projects__link {
+    text-decoration: none;
+    color: #001337;
+    transition: opacity 0.5s easy-in-out;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    position: absolute;
+    bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .projects__link {
+    font-size: 14px;
+    line-height: 19px;
+}
+}

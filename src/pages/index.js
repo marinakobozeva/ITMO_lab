@@ -63,5 +63,3 @@ buttonSubDevelopmentProjects.addEventListener('click', () =>{
   filterMenuSubDevelopmentProjects.isGroupCard();
 });
 
-
-

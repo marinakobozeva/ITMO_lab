@@ -1,0 +1,26 @@
+.projects__card_active{
+  max-width: 288px;
+  grid-column: 1/ span 2;
+  background: #E0F0FF;
+  background-image: url(../../../../images/Projects/Card-background1.svg);
+  background-position: right bottom;
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding: 16px;
+  position: relative;
+  order: -1;
+}
+
+@media screen and (min-width: 768px){
+  .projects__card_active {
+    max-width: 450px;
+    background-size: 226px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .projects__card_active {
+    max-width: 540px;
+    background-size: 254px;
+}

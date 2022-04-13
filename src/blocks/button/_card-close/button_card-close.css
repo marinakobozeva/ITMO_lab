@@ -1,0 +1,15 @@
+.button_card-close{
+  background: #009FAC;
+  background-image: url(../../../images/Projects/Card-arrow-close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px;
+}
+
+@media screen and (min-width: 768px){
+  .button_card-close {
+    position: absolute;
+    bottom: 16px;
+  }
+}
+

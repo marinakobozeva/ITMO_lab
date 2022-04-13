@@ -1,0 +1,9 @@
+.projects__link_active{
+  display: none;
+}
+
+@media screen and (min-width: 768px){
+  .projects__link_active {
+    display: inline;
+  }
+}

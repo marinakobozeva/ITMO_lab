@@ -1,0 +1,21 @@
+.projects__text_active{
+  color: #001337;
+  max-width: 172px;
+  max-height: 98px;
+}
+
+
+@media screen and (min-width: 768px){
+  .projects__text_active {
+    max-width: 224px;
+    max-height: 140px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .projects__text_active {
+    max-width: 265px;
+    margin-bottom: 22.5px;
+  }
+}
