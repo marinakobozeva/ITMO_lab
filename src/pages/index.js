@@ -63,3 +63,53 @@ buttonSubDevelopmentProjects.addEventListener('click', () =>{
   filterMenuSubDevelopmentProjects.isGroupCard();
 });
 
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',//расположение карточек в контейнере
+  loop: false ,//дублирование слайдов
+  slidesPerView: 2,//количество слайдов для показа, или количество столбцов
+  grid: {//количество строк
+    rows: 2,
+  },
+  spaceBetween: 8,//расстояние между слайдами
+  slidesPerGroup: 4,//количество слайдов будет пролистывать
+
+  preventClicks: true,//отключить случайный click во время прокрутки
+  rewind: true,//включена возможность перемотки назад
+  setWrapperSize: true,//установит ширину/высоту на оболочке swiper, равную общему размеру всех слайдов
+  watchOverflow: false,//включает кнопки навигации при 1 странице слайдов
+
+  navigation: {//стрелки
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  pagination: {//указатель страниц
+    el: '.swiper-pagination',
+    type: 'fraction',
+  },
+
+  breakpoints: {//адаптивная верства
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,//количество слайдов для показа, или количество столбцов
+      grid: {//количество строк
+        rows: 2,
+      },
+      spaceBetween: 30,//расстояние между слайдами
+      slidesPerGroup: 6,//количество слайдов будет пролистывать
+    },
+    // when window width is >= 1440px
+    1440: {
+      slidesPerView: 4,//количество слайдов для показа, или количество столбцов
+      grid: {//количество строк
+        rows: 2,
+      },
+      spaceBetween: 30,//расстояние между слайдами
+      slidesPerGroup: 8,//количество слайдов будет пролистывать
+    },
+
+  }
+
+});
+

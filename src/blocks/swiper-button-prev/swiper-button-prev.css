@@ -1,0 +1,13 @@
+.swiper-button-prev{
+  position: initial;
+  background-image: url(../../images/Projects/Button-prev.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.swiper-button-prev::after{
+  content: none;
+}

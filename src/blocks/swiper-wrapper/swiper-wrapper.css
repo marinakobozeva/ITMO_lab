@@ -1,0 +1,20 @@
+.swiper-wrapper{
+  max-width: 288px;
+  max-height: 306px;
+  margin-bottom: 8px;
+}
+@media screen and  (min-width: 768px) {
+  .swiper-wrapper {
+    max-width: 690px;
+    max-height: 428px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and  (min-width: 1440px) {
+  .swiper-wrapper {
+    max-width: 1110px;
+    max-height: 486px;
+    margin-bottom: 30px;
+  }
+}

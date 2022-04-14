@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>itmo</title>
 </head>
@@ -122,8 +123,14 @@
             <li class="projects__menu_item"><button id="developmentProjects" name="developmentProjects" type="button" class="button button_type-filter">В РАЗРАБОТКЕ</button></li>
           </ul>
         </article>
-        <article class="projects__group-cards"></article>
-        <div class="projects__pagination"></div>
+        <div class="swiper">
+          <div class="swiper-wrapper projects__group-cards"></div>
+          <article class="projects__pagination">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+          </article>
+        </div>
       </div>
     </section>
     <section class="education"></section>
@@ -151,14 +158,15 @@
   </main>
   <footer class="footer"></footer>
   <template id="projects-template" class="projects-template projects-template_type_default">
-    <article class="projects__card">
+    <div class="swiper-slide projects__card">
       <img class="projects__card-logo" src="" alt="">
       <p class="projects__text"></p>
       <a href="#" class="projects__link">Подробнее</a></p>
       <button class="button button_card-open" aria-label="Подробнее"></button>
       <p class="projects__filter-group" hidden></p>
-    </article>
+    </div>
   </template>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="./pages/index.js"></script>
 </body>
 </html>

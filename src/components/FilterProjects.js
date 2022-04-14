@@ -13,7 +13,7 @@ export class FilterProjects{
       if(this._button.name === this._itemId || this._button.name === 'allProjects'){
         this._item.classList.remove('projects__card_hide')
       }else{
-        this._item.classList.add('projects__card_hide')
+        this._item.classList.add('projects__card_hide');
       }
     });
   }

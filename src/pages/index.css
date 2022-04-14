@@ -55,6 +55,12 @@
 @import url(../blocks/card/__button/card__button.css);
 
 /*section projects*/
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper-wrapper/swiper-wrapper.css);
+@import url(../blocks/swiper-button-prev/swiper-button-prev.css);
+@import url(../blocks/swiper-button-next/swiper-button-next.css);
+@import url(../blocks/swiper-pagination/swiper-pagination.css);
+
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__container/projects__container.css);
 @import url(../blocks/projects/__title/projects__title.css);
@@ -86,3 +92,4 @@
 @import url(../blocks/companies/__subtitle/companies__subtitle.css);
 @import url(../blocks/companies/__group/companies__group.css);
 @import url(../blocks/companies/__group-item/companies__group-item.css);
+

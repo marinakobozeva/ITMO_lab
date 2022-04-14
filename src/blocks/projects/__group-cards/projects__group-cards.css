@@ -1,11 +1,11 @@
 .projects__group-cards{
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 8px; */
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
   .projects__group-cards {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -18,4 +18,4 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px 29px;
   }
-}
+} */
